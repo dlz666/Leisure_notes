@@ -1,8 +1,3 @@
----
-date: <% tp.date.now("YYYY-MM-DD") %>
-type: daily-log
-status: running
----
 
 # 📅 <% tp.date.now("YYYY-MM-DD") %> - 每日构建日志
 

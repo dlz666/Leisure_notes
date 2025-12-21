@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,7 +142,7 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -184,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,12 +204,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8fd46808b94d86cb",
+  "active": "b34671f11b52293e",
   "lastOpenFiles": [
-    "已命名.md",
+    "Templates/Daily_Build_ZJU.md",
+    "GoodNotes/草稿.pdf",
+    "GoodNotes/微积分.pdf",
     "weekly_plan/2025-W52.md",
     "2025-12-21.md",
-    "Templates/Daily_Build_ZJU.md",
+    "已命名.md",
     "GoodNotes/微积分two.pdf",
     "Templates",
     "周计划/冬七周周计划.md",
@@ -218,8 +221,6 @@
     "未命名.canvas",
     "未命名 1.base",
     "未命名 1.canvas",
-    "GoodNotes/微积分.pdf",
-    "GoodNotes/草稿.pdf",
     "未命名 2.base",
     "新建 文本文档.txt"
   ]
