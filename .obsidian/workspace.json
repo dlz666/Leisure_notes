@@ -11,12 +11,14 @@
             "id": "1bf84451ad01ae67",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GoodNotes/微积分.pdf"
+                "file": "周计划/冬七周周计划.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "微积分"
+              "icon": "lucide-file",
+              "title": "冬七周周计划"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "880aea51fbf4c2f8",
@@ -175,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,15 +191,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bf84451ad01ae67",
+  "active": "4493fbd29fdfcc59",
   "lastOpenFiles": [
+    "已命名.md",
+    "周计划/冬七周周计划.md",
+    "周计划",
+    "未命名.base",
+    "未命名.canvas",
+    "未命名 1.base",
+    "未命名 1.canvas",
+    "2025-12-21.md",
+    "GoodNotes/微积分.pdf",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分two.pdf",
-    "已命名.md",
-    "未命名.base",
-    "未命名 1.base",
     "未命名 2.base",
-    "GoodNotes/微积分.pdf",
     "新建 文本文档.txt"
   ]
 }
