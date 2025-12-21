@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周计划/冬七周周计划.md",
+                "file": "2025-12-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "冬七周周计划"
+              "title": "2025-12-21"
             }
           }
         ]
@@ -154,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2025-12-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-12-21 的大纲"
             }
           },
           {
@@ -171,9 +172,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8fd46808b94d86cb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,10 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4493fbd29fdfcc59",
+  "active": "b34671f11b52293e",
   "lastOpenFiles": [
-    "已命名.md",
     "周计划/冬七周周计划.md",
+    "已命名.md",
     "周计划",
     "未命名.base",
     "未命名.canvas",
