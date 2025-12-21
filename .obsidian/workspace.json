@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"date\"]",
-                "matchingCase": false,
+                "query": "[\"time\"]",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -204,13 +204,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b34671f11b52293e",
+  "active": "09ca110ce389cc17",
   "lastOpenFiles": [
+    "Invalid date.md",
+    "2025-12-21.md",
     "Templates/Daily_Build_ZJU.md",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分.pdf",
     "weekly_plan/2025-W52.md",
-    "2025-12-21.md",
     "已命名.md",
     "GoodNotes/微积分two.pdf",
     "Templates",
