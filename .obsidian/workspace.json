@@ -11,12 +11,14 @@
             "id": "1bf84451ad01ae67",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GoodNotes/微积分two.pdf"
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "微积分two"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -159,13 +161,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "be032b015943a9b5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,13 +187,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
-    "GoodNotes/微积分.pdf",
     "GoodNotes/草稿.pdf",
+    "未命名.md",
+    "GoodNotes/微积分.pdf",
+    "GoodNotes/微积分two.pdf",
     "新建 文本文档.txt"
   ]
 }
