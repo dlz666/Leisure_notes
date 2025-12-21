@@ -188,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 388.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,7 +203,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1bf84451ad01ae67",
+  "active": "8fd46808b94d86cb",
   "lastOpenFiles": [
     "已命名.md",
     "weekly_plan/2025-W52.md",
