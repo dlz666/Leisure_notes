@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -203,13 +203,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4493fbd29fdfcc59",
+  "active": "8fd46808b94d86cb",
   "lastOpenFiles": [
+    "Templates/Daily_Build_ZJU.md",
     "weekly_plan/2025-W52.md",
     "2025-12-21.md",
     "已命名.md",
     "GoodNotes/微积分two.pdf",
-    "Templates/Daily_Build_ZJU.md",
     "Templates",
     "周计划/冬七周周计划.md",
     "weekly_plan",
