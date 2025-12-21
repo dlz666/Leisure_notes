@@ -184,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b34671f11b52293e",
+  "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
+    "weekly_plan/2025-W52.md",
+    "2025-12-21.md",
+    "weekly_plan",
     "周计划/冬七周周计划.md",
     "已命名.md",
     "周计划",
@@ -211,7 +214,6 @@
     "未命名.canvas",
     "未命名 1.base",
     "未命名 1.canvas",
-    "2025-12-21.md",
     "GoodNotes/微积分.pdf",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分two.pdf",
