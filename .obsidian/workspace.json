@@ -11,14 +11,12 @@
             "id": "1bf84451ad01ae67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
+                "file": "GoodNotes/微积分.pdf"
               },
-              "icon": "lucide-file",
-              "title": "未命名"
+              "icon": "lucide-file-text",
+              "title": "微积分"
             }
           }
         ]
@@ -194,9 +192,12 @@
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
     "GoodNotes/草稿.pdf",
-    "未命名.md",
-    "GoodNotes/微积分.pdf",
     "GoodNotes/微积分two.pdf",
+    "已命名.md",
+    "未命名.base",
+    "未命名 1.base",
+    "未命名 2.base",
+    "GoodNotes/微积分.pdf",
     "新建 文本文档.txt"
   ]
 }
