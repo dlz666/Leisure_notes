@@ -1,1 +1,7 @@
-{}
+{
+  "enabledCssSnippets": [
+    "checkbox-no-strikethrough"
+  ],
+  "showRibbon": true,
+  "baseFontSizeAction": true
+}
