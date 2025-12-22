@@ -3,5 +3,6 @@
     "checkbox-no-strikethrough"
   ],
   "showRibbon": true,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "baseFontSize": 19
 }
