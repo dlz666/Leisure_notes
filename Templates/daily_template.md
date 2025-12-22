@@ -6,8 +6,8 @@ if (!date.isValid()) {
 // 格式化周数，例如 2025-W52
 let weekStr = date.format("YYYY-[W]WW");
 // 格式化显示的日期标题
-let titleDate = date.format("MM-DD dddd");
-%>
+let titleDate = date.format("dddd");
+%> 
 # <% titleDate %>
 
 🔗 **关联**: [[weekly_plan/<% weekStr %>|📅 本周计划 (<% weekStr %>)]]

@@ -16,6 +16,10 @@
   "folder_templates": [
     {
       "folder": "daily",
+      "template": "Templates/daily_template.md"
+    },
+    {
+      "folder": "",
       "template": ""
     }
   ],
