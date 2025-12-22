@@ -1,5 +1,4 @@
 <%*
-// 尝试从文件名解析日期 (格式 YYYY-MM-DD)，如果文件名不是日期，则使用今天
 let date = moment(tp.file.title, "YYYY-MM-DD", true);
 if (!date.isValid()) {
     date = moment();
