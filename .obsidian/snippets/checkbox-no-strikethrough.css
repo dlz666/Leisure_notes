@@ -1,0 +1,20 @@
+/*
+ * obsidian-checkbox-no-strikethrough.css
+ * 移除完成任务的删除线，但保留默认的变灰效果。
+ */
+
+/* 阅读模式 */
+.markdown-preview-view ul > li.task-list-item.is-checked {
+    text-decoration: none;
+}
+
+/* 编辑模式 (Live Preview) 和源码模式 */
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="X"] {
+    text-decoration: none !important;
+}
+
+/* 兼容一些主题可能会用到的变量覆盖 */
+body {
+    --checklist-done-decoration: none;
+}
