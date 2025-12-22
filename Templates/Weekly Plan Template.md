@@ -4,9 +4,10 @@
   let endOfWeek = tp.date.weekday("YYYY-MM-DD", 6);
   let weekNum = tp.date.now("WW");
 %>
-# 🗓️ Weekly Plan: W<% weekNum %> (<% startOfWeek %> ~ <% endOfWeek %>)
+# 🗓️ Weekly Plan: W<% weekNum %> 
+   **( <% startOfWeek %> ~ <% endOfWeek %> )
 
-> "The key is not to prioritize what's on your schedule, but to schedule your priorities." — Stephen Covey
+> "The key is not to prioritize what's on your schedule,  but to schedule your priorities." — Stephen Covey
 
 ## 1. 🧭 指南针：以终为始
 
@@ -56,9 +57,11 @@
 ---
 
 ## 5. 🔄 Review 
-- 🌹 **高光时刻 (Highlights):** 
-- 🚧 **未完成/障碍 (Blockers):** 
-- 💡 **下周改进 (Action Items):** 
+- 🌹 **高光时刻 :** 
+- 🚧 **未完成/障碍 :** 
+- 💡 **下周改进:** 
 - 📉 **身心状态指数 (1-10):** 
+
+
 
 ---
