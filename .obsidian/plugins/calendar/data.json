@@ -4,7 +4,7 @@
   "wordsPerDot": 250,
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
-  "weeklyNoteTemplate": "",
+  "weeklyNoteTemplate": "Weekly Plan Template",
   "weeklyNoteFolder": "weekly_plan",
   "localeOverride": "system-default"
 }
