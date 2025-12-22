@@ -1,4 +1,23 @@
-<% 
-	let thisweek = tp.date(format : string = "YYYY-[W]WW);
+<%*
+// 尝试从文件名解析日期 (格式 YYYY-MM-DD)，如果文件名不是日期，则使用今天
+let date = moment(tp.file.title, "YYYY-MM-DD", true);
+if (!date.isValid()) {
+    date = moment();
+}
+// 格式化周数，例如 2025-W52
+let weekStr = date.format("YYYY-[W]WW");
+// 格式化显示的日期标题
+let titleDate = date.format("YYYY-MM-DD dddd");
 %>
-weekly_plan: [[<%weekly_plan/this_week%>]]
+# <% titleDate %>
+
+🔗 **关联**: [[weekly_plan/<% weekStr %>|📅 本周计划 (<% weekStr %>)]]
+
+## ✅ 待办事项
+- [ ] jlKDJ
+
+## 💻 CS 学习与开发
+- 
+
+## 📝 笔记与想法
+- 
