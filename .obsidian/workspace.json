@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Weekly Plan Template.md",
+                "file": "daily/2025-12-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weekly Plan Template"
+              "title": "2025-12-22"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"time\"]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -205,18 +205,19 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
+    "daily/未命名.md",
+    "GoodNotes/微积分.pdf",
+    "GoodNotes/草稿.pdf",
+    "daily/2025-12-22.md",
     "Templates/daily_template.md",
     "Templates/Weekly Plan Template.md",
     "weekly_plan/2025-W52.md",
     "GoodNotes/微积分two.pdf",
-    "daily/2025-12-22.md",
     "2025-12-22.md",
     "daily",
     "2025-12-21.md",
     "My_Mission_Statement.md",
     "Invalid date.md",
-    "GoodNotes/草稿.pdf",
-    "GoodNotes/微积分.pdf",
     "已命名.md",
     "Templates",
     "周计划/冬七周周计划.md",
