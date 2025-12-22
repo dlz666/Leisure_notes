@@ -2,12 +2,12 @@
   "styleLists": true,
   "debug": false,
   "stickCursor": "bullet-and-checkbox",
-  "betterEnter": true,
+  "betterEnter": false,
   "betterVimO": true,
   "betterTab": true,
   "selectAll": true,
   "listLines": true,
-  "listLineAction": "none",
+  "listLineAction": "toggle-folding",
   "dnd": true,
   "previousRelease": null
 }
