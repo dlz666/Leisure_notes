@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/daily_template.md",
-                "mode": "preview",
+                "file": "Templates/Weekly Plan Template.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily_template"
+              "title": "Weekly Plan Template"
             }
           }
         ]
@@ -206,8 +206,8 @@
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
     "daily/2025-12-22.md",
-    "GoodNotes/草稿.pdf",
     "Templates/daily_template.md",
+    "GoodNotes/草稿.pdf",
     "Templates/Weekly Plan Template.md",
     "weekly_plan/2025-12-W52.md",
     "daily/daily.md",
