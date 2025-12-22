@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weekly_plan/2025-W52.md",
+                "file": "Templates/daily_template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-W52"
+              "title": "daily_template"
             }
           }
         ]
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "weekly_plan/2025-W52.md",
+                "file": "Templates/daily_template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-W52 的大纲"
+              "title": "daily_template 的大纲"
             }
           },
           {
@@ -205,16 +205,18 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
-    "Templates/Weekly Plan Template.md",
-    "weekly_plan/2025-W52.md",
+    "daily/daily.md",
     "Templates/daily_template.md",
+    "weekly_plan/2025-W52.md",
+    "daily/2025-12-22.md",
+    "Templates/Weekly Plan Template.md",
+    "weekly_plan/2025-12-W52.md",
+    "weekly_plan/2026-12-W01.md",
     "My_Mission_Statement.md",
     "Invalid date.md",
-    "daily/2025-12-22.md",
     "GoodNotes/微积分two.pdf",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分.pdf",
-    "daily/未命名.md",
     "周计划/冬七周周计划.md",
     "weekly_plan/this_week.md",
     "2025-12-22.md",
