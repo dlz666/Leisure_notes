@@ -46,7 +46,7 @@
 
 ## 4. 📅 The Week Ahead 
 
-- **Mon:** 
+- **Mon:**
 - **Tue:**
 - **Wed:**
 - **Thu:** 

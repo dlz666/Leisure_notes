@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weekly_plan/2025-12-W52.md",
+                "file": "Templates/Weekly Plan Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-W52"
+              "title": "Weekly Plan Template"
             }
           }
         ]
@@ -205,11 +205,11 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
-    "Templates/daily_template.md",
-    "Templates/Weekly Plan Template.md",
     "daily/2025-12-22.md",
-    "daily/daily.md",
     "weekly_plan/2025-12-W52.md",
+    "Templates/Weekly Plan Template.md",
+    "Templates/daily_template.md",
+    "daily/daily.md",
     "weekly_plan/2025-W52.md",
     "weekly_plan/2026-12-W01.md",
     "My_Mission_Statement.md",
