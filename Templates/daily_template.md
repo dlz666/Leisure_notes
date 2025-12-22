@@ -1,50 +1,7 @@
-<%*
-let date = moment(tp.file.title, "YYYY-MM-DD", true);
-if (!date.isValid()) {
-    date = moment();
-}
-// 格式化周数，以周一所在月份为准，避免跨月文件名不一致
-let weekStr = date.clone().isoWeekday(1).format("YYYY-MM-[W]WW");
-// 格式化显示的日期标题
-let titleDate = date.format("dddd");
-%> 
-# <% titleDate %>
-
-🔗 **关联**: [[weekly_plan/<% weekStr %>|📅 本周计划 (<% weekStr %>)]]
-
-# 今日计划
-<%*
-// 获取当前文件日期
-let date = moment(tp.file.title, "YYYY-MM-DD", true);
-if (!date.isValid()) date = moment();
-
-// 1. 确保星期简写是英文 (Mon, Tue...) 以匹配周计划格式
-let dayAbbr = date.locale('en').format("ddd");
-
-// 2. 重新计算周文件名 (以周一所在月份为准)
-let weekStr = date.clone().isoWeekday(1).format("YYYY-MM-[W]WW");
-let weeklyPlanPath = `weekly_plan/${weekStr}`;
-let tFile = tp.file.find_tfile(weeklyPlanPath);
-let planContent = "";
-
-if (tFile) {
-    const fileContent = await app.vault.read(tFile);
-    // 匹配: - **Mon:** 任意内容
-    // 使用 multiline 模式，确保只匹配对应行
-    const regex = new RegExp(`-\\s*\\*\\*${dayAbbr}:\\*\\*\\s*(.*)`, "i");
-    const match = fileContent.match(regex);
-    if (match && match[1].trim()) {
-        planContent = match[1].trim();
-    }
-} else {
-    // 调试信息：如果找不到文件，提示用户 (可选，正式版可去掉)
-    // planContent = `(未找到周计划文件: ${weeklyPlanPath})`; 
-}
-%>
-<% planContent ? `> 📌 **周计划**: ${planContent}` : "> ℹ️ *今日暂无周计划内容或未找到关联文件*" %>
+<%* try { // --- 1. 初始化 --- let currentDate = moment(tp.file.title, "YYYY-MM-DD", true); if (!currentDate.isValid()) { currentDate = moment(); } let titleDate = currentDate.format("dddd"); // --- 2. 计算周计划路径 --- // 获取本周一的日期 (ISO周: 1=周一, 7=周日) let mondayDate = currentDate.clone().isoWeekday(1); let weekFileName = mondayDate.format("YYYY-MM-[W]WW"); // 显式加上 .md 后缀，提高查找成功率 let weeklyPlanPath = `weekly_plan/${weekFileName}.md`; // --- 3. 尝试读取内容 --- let dayAbbr = currentDate.clone().locale('en').format("ddd"); let planContent = ""; // 查找文件 let tFile = tp.file.find_tfile(weeklyPlanPath); // 如果找不到，尝试不带后缀再找一次 (兼容性) if (!tFile) { tFile = tp.file.find_tfile(`weekly_plan/${weekFileName}`); } if (tFile) { const fileContent = await app.vault.read(tFile); const regex = new RegExp(`-\s*\*\*${dayAbbr}:\*\*\s*(.*)`, "i"); const match = fileContent.match(regex); if (match && match[1].trim()) { planContent = match[1].trim(); } } // --- 4. 输出内容到笔记 --- tR += `# ${titleDate}\n\n`; tR += `🔗 **关联**: [[weekly_plan/${weekFileName}|📅 本周计划 (${weekFileName})]]\n\n`; tR += `# 今日计划\n`; if (planContent) { tR += `> 📌 **周计划**: ${planContent}\n`; } else { tR += `> ℹ️ *今日暂无周计划内容 (关联文件: ${weekFileName})*\n`; if (!tFile) { tR += `> ⚠️ *Debug: 未找到文件 ${weeklyPlanPath}*\n`; } } } catch (e) { // 捕获错误并显示，不再弹窗报错 tR += `\n> ❌ **Templater 脚本错误**: ${e.message}\n`; tR += `> ${e.stack}\n`; } %>
 
 ## 💻 CS 学习与开发
-- 
+-
 ## ✅ 待办事项
 - [ ] 跑步打卡
 - [ ] 背单词打卡
