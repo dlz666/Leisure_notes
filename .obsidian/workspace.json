@@ -11,12 +11,14 @@
             "id": "1bf84451ad01ae67",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "GoodNotes/微积分.pdf"
+                "file": "daily/2025-12-27.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "微积分"
+              "icon": "lucide-file",
+              "title": "2025-12-27"
             }
           }
         ]
@@ -203,10 +205,11 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
+    "daily/2025-12-26.md",
+    "daily/2025-12-27.md",
+    "GoodNotes/微积分.pdf",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分two.pdf",
-    "GoodNotes/微积分.pdf",
-    "daily/2025-12-26.md",
     "daily/2025-12-25.md",
     "daily/2025-12-23.md",
     "daily/2025-12-22.md",
