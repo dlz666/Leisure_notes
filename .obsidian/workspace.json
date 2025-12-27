@@ -11,14 +11,12 @@
             "id": "1bf84451ad01ae67",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "daily/2025-12-25.md",
-                "mode": "source",
-                "source": false
+                "file": "GoodNotes/微积分.pdf"
               },
-              "icon": "lucide-file",
-              "title": "2025-12-25"
+              "icon": "lucide-file-text",
+              "title": "微积分"
             }
           }
         ]
@@ -203,20 +201,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4493fbd29fdfcc59",
+  "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
-    "daily/2025-12-23.md",
-    "daily/2025-12-25.md",
-    "daily/2025-12-22.md",
+    "GoodNotes/草稿.pdf",
+    "GoodNotes/微积分two.pdf",
+    "GoodNotes/微积分.pdf",
     "daily/2025-12-26.md",
+    "daily/2025-12-25.md",
+    "daily/2025-12-23.md",
+    "daily/2025-12-22.md",
     "My_Mission_Statement.md",
     "Invalid date.md",
     "已命名.md",
     "weekly_plan/2025-12-W52.md",
     "daily/2025-12-24.md",
-    "GoodNotes/微积分two.pdf",
-    "GoodNotes/微积分.pdf",
-    "GoodNotes/草稿.pdf",
     "Templates/daily_template.md",
     "Templates/Weekly Plan Template.md",
     "未命名.md",
