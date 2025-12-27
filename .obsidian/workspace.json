@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2025-12-22.md",
+                "file": "daily/2025-12-27.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-12-22 的大纲"
+              "title": "2025-12-27 的大纲"
             }
           },
           {
@@ -169,8 +169,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -205,21 +205,21 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
+    "daily/2025-12-24.md",
+    "daily/2025-12-23.md",
+    "daily/2025-12-22.md",
     "weekly_plan/2025-12-W52.md",
+    "daily/2025-12-25.md",
+    "daily/2025-12-26.md",
+    "daily/2025-12-27.md",
     "missing semester/Lecture2 Shell.md",
     "My_Mission_Statement.md",
     "missing semester",
-    "daily/2025-12-27.md",
-    "daily/2025-12-26.md",
     "GoodNotes/微积分.pdf",
     "GoodNotes/草稿.pdf",
     "GoodNotes/微积分two.pdf",
-    "daily/2025-12-25.md",
-    "daily/2025-12-23.md",
-    "daily/2025-12-22.md",
     "Invalid date.md",
     "已命名.md",
-    "daily/2025-12-24.md",
     "Templates/daily_template.md",
     "Templates/Weekly Plan Template.md",
     "未命名.md",
