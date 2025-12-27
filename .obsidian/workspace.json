@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "missing semester/Lecture2 Shell.md",
+                "file": "weekly_plan/2025-12-W52.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture2 Shell"
+              "title": "2025-12-W52"
             }
           }
         ]
@@ -205,8 +205,8 @@
   },
   "active": "1bf84451ad01ae67",
   "lastOpenFiles": [
-    "My_Mission_Statement.md",
     "missing semester/Lecture2 Shell.md",
+    "My_Mission_Statement.md",
     "missing semester",
     "daily/2025-12-27.md",
     "daily/2025-12-26.md",
