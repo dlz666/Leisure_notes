@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "missing semester/Lecture2 Shell.md",
+                "file": "daily/2026-01-01.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Lecture2 Shell 的大纲"
+              "title": "2026-01-01 的大纲"
             }
           },
           {
@@ -203,7 +203,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7ba8ab71409f6209",
+  "active": "8fd46808b94d86cb",
   "lastOpenFiles": [
     "weekly_plan/2025-12-W01.md",
     "daily/2026-01-01.md",
