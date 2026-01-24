@@ -1,20 +1,20 @@
 {
 	"nodes":[
-		{"id":"7060d90437e6e7b3","x":-768,"y":1343,"width":250,"height":60,"type":"text","text":""},
 		{"id":"b65f434ac16b4877","x":60,"y":-40,"width":140,"height":140,"type":"text","text":"objects: divided directory"},
 		{"id":"3312c7c95e29aa15","x":-154,"y":200,"width":125,"height":60,"type":"text","text":"branch"},
 		{"id":"a36b511080d8a98f","x":-60,"y":347,"width":200,"height":153,"type":"text","text":"branches:\nfilename:branchname\ncontent: branch object "},
 		{"id":"3c4effd715d6f204","x":-300,"y":347,"width":169,"height":154,"type":"text","text":"currb:storage current branch"},
 		{"id":"26e51a402f59e9fd","x":237,"y":-100,"width":250,"height":220,"type":"text","text":"all commits filename[id] contain object commit\nand all blob objects filename [id] contains blob object"},
 		{"id":"3f595ff7a9359832","x":-154,"y":-20,"width":125,"height":120,"type":"text","text":".gitlet"},
-		{"id":"3ab485ea45a7b797","x":-217,"y":-166,"width":250,"height":60,"type":"text","text":"stage file: stage object contains Map[filename -> blob hash]"},
+		{"id":"3ab485ea45a7b797","x":-217,"y":-280,"width":250,"height":174,"type":"text","text":"stage file: stage object contains Map[filename -> blob hash]"},
 		{"id":"268211d4cb02941e","x":-388,"y":1060,"width":177,"height":220,"type":"text","text":"Repository: the root class, contain all necessary init things and all save and load function"},
 		{"id":"a69237038ec37d45","x":-117,"y":1059,"width":250,"height":161,"type":"text","text":"Branch.class\n\tHead [id of head commit]\n\tname "},
 		{"id":"73e8fd963f2a46f2","x":-511,"y":840,"width":246,"height":155,"type":"text","text":"branch: storage current branch(load from branch/currb)"},
 		{"id":"e7b6f0fd148041a3","x":-231,"y":840,"width":194,"height":139,"type":"text","text":"stagearea: storage currant Stage object(load from stage file)"},
 		{"id":"88c649a1ff27e4ee","x":-1000,"y":1140,"width":250,"height":99,"type":"text","text":"Commit: commit data and all method"},
 		{"id":"138f27e41f2b0404","x":-1165,"y":918,"width":250,"height":166,"type":"text","text":"Blob:  storage in file named with hash id\n\tbyte[] content"},
-		{"id":"0b18c4a63e341a00","x":-915,"y":840,"width":335,"height":242,"type":"text","text":"commit id\nparentId(and parentIdM)\nBlobMap:  filename -> blobId\n\t"}
+		{"id":"0b18c4a63e341a00","x":-915,"y":840,"width":335,"height":242,"type":"text","text":"commit id\nparentId(and parentIdM)\nBlobMap:  filename -> blobId\n\t"},
+		{"id":"7060d90437e6e7b3","x":-768,"y":1343,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"e8c70cc1831f2b95","fromNode":"3f595ff7a9359832","fromSide":"bottom","toNode":"3312c7c95e29aa15","toSide":"top"},
