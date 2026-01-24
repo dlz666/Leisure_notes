@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"7060d90437e6e7b3","x":-768,"y":1343,"width":250,"height":60,"type":"text","text":""},
 		{"id":"b65f434ac16b4877","x":60,"y":-40,"width":140,"height":140,"type":"text","text":"objects: divided directory"},
 		{"id":"3312c7c95e29aa15","x":-154,"y":200,"width":125,"height":60,"type":"text","text":"branch"},
 		{"id":"a36b511080d8a98f","x":-60,"y":347,"width":200,"height":153,"type":"text","text":"branches:\nfilename:branchname\ncontent: branch object "},
