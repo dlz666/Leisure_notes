@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"3f595ff7a9359832","x":-154,"y":0,"width":125,"height":120,"type":"text","text":".gitlet"},
+		{"id":"b65f434ac16b4877","x":60,"y":-40,"width":140,"height":140,"type":"text","text":"objects: divided directory"},
+		{"id":"3312c7c95e29aa15","x":-154,"y":200,"width":125,"height":60,"type":"text","text":"branch"},
+		{"id":"a36b511080d8a98f","x":-60,"y":347,"width":200,"height":153,"type":"text","text":"branches:\nfilename:branchname\ncontent: branch object "},
+		{"id":"3c4effd715d6f204","x":-300,"y":347,"width":169,"height":154,"type":"text","text":"currb:storage current branch"},
+		{"id":"26e51a402f59e9fd","x":237,"y":-100,"width":250,"height":220,"type":"text","text":"all commits filename[id] contain object commit\nand all "}
+	],
+	"edges":[
+		{"id":"e8c70cc1831f2b95","fromNode":"3f595ff7a9359832","fromSide":"bottom","toNode":"3312c7c95e29aa15","toSide":"top"},
+		{"id":"e92b44e39252537c","fromNode":"3312c7c95e29aa15","fromSide":"bottom","toNode":"3c4effd715d6f204","toSide":"top"},
+		{"id":"dbc3684376fb452d","fromNode":"3312c7c95e29aa15","fromSide":"bottom","toNode":"a36b511080d8a98f","toSide":"top"},
+		{"id":"969fb3d91d350e3a","fromNode":"3f595ff7a9359832","fromSide":"right","toNode":"b65f434ac16b4877","toSide":"left"},
+		{"id":"59ba2803c5be6b05","fromNode":"b65f434ac16b4877","fromSide":"right","toNode":"26e51a402f59e9fd","toSide":"left"}
+	]
+}

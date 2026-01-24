@@ -11,14 +11,17 @@
             "id": "7ba8ab71409f6209",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "daily/2026-01-16.md",
-                "mode": "source",
-                "source": false
+                "file": "gitlet.canvas",
+                "viewState": {
+                  "x": 104.66679382324219,
+                  "y": 88,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "2026-01-16"
+              "icon": "lucide-layout-dashboard",
+              "title": "gitlet"
             }
           }
         ]
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "880aea51fbf4c2f8",
@@ -188,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,8 +210,9 @@
   },
   "active": "7ba8ab71409f6209",
   "lastOpenFiles": [
-    "weekly_plan/2026-01-W03.md",
     "daily/2026-01-16.md",
+    "gitlet.canvas",
+    "weekly_plan/2026-01-W03.md",
     "weekly_plan/2025-12-W52.md",
     "daily/2026-01-01.md",
     "weekly_plan/2025-12-W01.md",
@@ -235,12 +241,10 @@
     "weekly_plan/this_week.md",
     "2025-12-22.md",
     "daily",
-    "2025-12-21.md",
     "Templates",
     "weekly_plan",
     "周计划",
     "未命名.base",
-    "未命名.canvas",
     "未命名 1.base",
     "未命名 1.canvas"
   ]
