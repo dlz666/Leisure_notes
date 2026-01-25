@@ -13,18 +13,31 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "gitlet.canvas",
+                "file": "未命名.canvas",
                 "viewState": {
-                  "x": -57.110305185146586,
-                  "y": 201.5368833849637,
-                  "zoom": -0.3333333333333334
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "gitlet"
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "8fb991669bab98b5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-25 21.12.26.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-25 21.12.26.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "880aea51fbf4c2f8",
@@ -205,13 +217,17 @@
       "command-palette:打开命令面板": false,
       "daily-notes:打开/创建今天的日记": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7ba8ab71409f6209",
+  "active": "8fb991669bab98b5",
   "lastOpenFiles": [
-    "daily/2026-01-16.md",
+    "未命名.canvas",
+    "Excalidraw/Drawing 2026-01-25 21.12.26.excalidraw.md",
+    "Excalidraw",
     "gitlet.canvas",
+    "daily/2026-01-16.md",
     "weekly_plan/2026-01-W03.md",
     "weekly_plan/2025-12-W52.md",
     "daily/2026-01-01.md",
@@ -239,13 +255,11 @@
     "weekly_plan/2025-W52.md",
     "周计划/冬七周周计划.md",
     "weekly_plan/this_week.md",
-    "2025-12-22.md",
     "daily",
     "Templates",
     "weekly_plan",
     "周计划",
     "未命名.base",
-    "未命名 1.base",
     "未命名 1.canvas"
   ]
 }
